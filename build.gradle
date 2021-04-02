@@ -1,0 +1,18 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'com.github.leblancjs'
+version '0.1.0-SNAPSHOT'
+
+javafx {
+    version = '15'
+    modules = ['javafx.base', 'javafx.controls', 'javafx.graphics']
+}
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'com.github.leblancjs.email.client.harold/com.github.leblancjs.email.client.harold.EmailClientForHarold'
