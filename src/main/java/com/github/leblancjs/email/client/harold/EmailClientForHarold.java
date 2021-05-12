@@ -29,12 +29,11 @@ public class EmailClientForHarold extends Application {
         theTable.setItems(emailToDisplay);
         VBox.setVgrow(theTable, Priority.ALWAYS);
 
-        Button theButton = new Button("Get Email");
-        theButton.setOnAction(evenement -> CompletableFuture.supplyAsync(client::fetchEmail)
-                .thenAcceptAsync(emailToDisplay::setAll, Platform::runLater));
+        Button theButton = new Button("Download Email");
+        theButton.setOnAction(event -> emailToDisplay.setAll(client.fetchEmail()));
 
         primaryStage.setScene(new Scene(new VBox(theTable, theButton)));
-        primaryStage.setTitle("Email Client for Harold");
+        primaryStage.setTitle("Harold's Email Client");
         primaryStage.show();
     }
 

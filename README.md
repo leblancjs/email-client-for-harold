@@ -1,7 +1,7 @@
-# Email Client for Harold
-This repository the source code for the super-simple email client you can write
-by reading my article on Medium:
-[An Email Client for Harold](https://leblancjs.medium.com/un-client-courriel-pour-manon-89c2bd32926a).
+# Harold's Email Client
+This repository contains the source code for the super-simple email client you
+can write by reading my article on Medium:
+[How to Use a Background Thread in Java](https://leblancjs.medium.com/how-to-use-a-background-thread-in-java-f786a1fe2c95).
 
 One table. One button. You can do it, Harold!
 

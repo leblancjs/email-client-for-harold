@@ -18,10 +18,9 @@ public class EmailClient {
             System.err.println("Hmm... that didn't work");
         }
 
-        // TODO: Come up with English email equivalents...
         return List.of(
-                new Email("Ricardo", "La meilleure recette de tarte", "Tu dois essayer cette recette!"),
-                new Email("Ginette Renaud", "Ma nouvelle chanson", "Salut. Peux-tu écouter mon dernier single et me dire ce que t'en penses? Merci!"),
-                new Email("Prince Nigérien", "Une fortune à partager", "Hey! Je dois partager mon cash. T'en veux? Donne moi ton numéro de compte, ton NAS, etc. pi je t'envois quelques millions!"));
+                new Email("Red Green", "The Handyman's Secret Weapon", "Duct tape can fix just about anything! If women don't find you handsome, they should at least find you handy."),
+                new Email("Winston Rothschild III", "Rothschild's Sewage and Septic Sucking Services", "We're number one in the number two business. We'll take that smell off your hands. We come in a truck and leave in a daze."),
+                new Email("Nigerian Prince", "Let Me Share a Fortune with You", "Hey! I want to share my money. Want some? Give me your bank account number, SIN, etc. and I'll send you a few million dollars!"));
     }
 }
